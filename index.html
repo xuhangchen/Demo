@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://unpkg.com/vue@next"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+        <title>Vue-Cli</title>
+    </head>
+    <body>
+        <!-- <div id="app">
+          Counter:{{counter}}
+            <br />
+            <button @click="onStart()">start</button>
+            <button @click="onStop()">stop</button>
+        </div> -->
+
+        <script type="module" src="main.js"></script>
+
+        <!--   <div id="app">
+            <div>
+                <h3 v-bind:style=" 'color:' + getColorByCount">事件绑定</h3>
+                <div>Counter : {{counter}}</div>
+                <button @click="onStart()">start</button>
+                <button v-on:click="onStop()">stop</button>
+                <button v-on:click="getColorByCount='gray'">改变单数时颜色</button>
+                <button v-on:click="getCompuseData()">获得计算属性</button>
+            </div>
+
+            <div>
+                <h3>条件&循环渲染</h3>
+
+                <ul>
+                    <li v-for="item in dataList" @click="onItemClick(item)" :key="item">{{item}}</li>
+                </ul>
+
+                 <ul>
+                    <li @click="onProjectClick(item)" v-for="item in projectList" :key="item.id">
+                        <div>{{item}}</div>
+                        <button v-on:click="addPress(item)">加重量</button>
+                    </li>
+                </ul> 
+
+                <ul>
+                    <li @click="onProjectClick(item)" v-for="item in projectList" :key="item.id">
+                        <div>{{item}}</div>
+                        <button v-on:click="addPress(item)">加重量</button>
+                    </li>
+                </ul>
+            </div>
+        </div>-->
+
+        <!-- <div id="counter">
+            <h3>倒计时</h3>
+            <div>
+                <div>体脂 : {{counter}}</div>
+                <button @click="onStart()">start</button>
+                <button v-on:click="onStop()">stop</button>
+            </div>
+        </div> -->
+
+        <!-- <div id="input">
+            <h3>数据绑定 条件控制语句</h3>
+            <div>
+                <div v-if="isShow">{{inputValue}}</div>
+
+                <input v-model="inputValue" />
+
+                <br />
+                <button style="margin-top: 10px; color: red" @click="isShow = !isShow">控制显示隐藏</button>
+                <button style="margin-top: 10px; color: green" @click="setText()">改变数据</button>
+            </div>
+        </div> -->
+
+        <!-- <div id="todoList">
+            <h3>组件渲染</h3>
+            <button @click="getListByData()">获取网络数据</button>
+            <button @click="destory()">销毁组件</button>
+
+            <div>{{title}}</div>
+            <button @click="update()">更新一下数据</button>
+            <div v-for="item in dataList"><todo-item v-bind:todo="item" :key="item.id"></todo-item></div>
+        </div> -->
+
+        <!-- <div id="promiseDemo"></div> -->
+
+        <!-- <div id="dataProperty"></div> -->
+        <div id="TransferData"></div>
+    </body>
+</html>
